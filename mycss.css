@@ -1,0 +1,110 @@
+body{
+	background-color: red;
+}
+
+.nav-link{
+	text-transform: capitalize;
+}
+.slideouter{
+	height:200px;
+}
+.text-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-align-justify{
+	text-align: justify;
+}
+.imgheight{
+	height: 250px;
+}
+.heightofcourese{
+	margin-top: 3%;
+	padding: 2%;
+	border-bottom: 1px solid red;
+	/* overflow: hidden; */
+}
+
+.scrolltop{
+	padding: 1%;
+	position: fixed;
+	bottom: 4%;
+	right: 2%;
+	background-color: red;
+	border-radius: 50%;
+}
+html,body{
+	scroll-behavior: smooth;
+}
+abbr{
+	cursor: help;
+}
+/* loginpagecss */
+.wrap1{
+	
+	height: 100vh;
+}
+
+.ppwrapper{
+	height: 50px;
+	background-color: red;
+}
+
+/* this animation not working from this page */
+ #dashbord{
+  animation: plus 1s infinite;
+}
+
+@keyframes plus{
+  0%{box-shadow: 0 0 0 green;}
+  100%{box-shadow: 2px 2px 20px #FFFF00;}
+}
+/* this animation not working from this page */
+
+ .postimg{
+  height: 300px;
+}
+  #dashbord{
+  animation: plus 2s infinite;
+}
+
+@keyframes plus{
+  0%{box-shadow: 0 0 0 green;}
+  100%{box-shadow: 2px 2px 20px #FFFF00;}
+}
+
+#dashbord2{
+  animation: plus2 1.5s infinite;
+}
+
+@keyframes plus2{
+  0%{box-shadow: 0 0 0 green;}
+  100%{box-shadow: 2px 2px 20px #FF00FF;}
+}
+.font-varient{font-variant: small-caps;}
+.outerourteam{
+  height: 250px;
+  background-color: red;}
+.imgcontrol{
+  height: 20px;
+}
+
+
+.wrapper1{
+  height: 200px;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 7%;
+
+}
+.ourteamimg{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.ottext{
+  text-align: center;
+  direction: rtl;
+}

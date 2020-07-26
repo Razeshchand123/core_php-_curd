@@ -1,0 +1,2 @@
+# My .htaccess file
+php_flag output_buffering on
